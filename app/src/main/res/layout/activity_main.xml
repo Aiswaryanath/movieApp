@@ -1,0 +1,115 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:text="mname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mname"
+            android:inputType="text"/>
+        <TextView
+            android:text="mlanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/mlanguage"
+            android:entries="@array/mlanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+        <TextView
+            android:text="mactor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mactor"
+            android:inputType="text"/>
+
+        <TextView
+            android:text="mactress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mactress"
+            android:inputType="text"/>
+        <TextView
+            android:text="ryear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ryear"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:text="director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/director"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:text="producer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/producer"
+            android:inputType="text"/>
+
+
+
+
+        <TextView
+            android:text="cameraman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cameraman"
+            android:inputType="text"/>
+        <TextView
+            android:text="tcollection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tcollection"
+            android:inputType="text"/>
+
+
+
+        <Button
+            android:text="register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register" />
+        <Button
+            android:text="search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search" />
+
+
+    </LinearLayout>
+</ScrollView>
